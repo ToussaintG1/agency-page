@@ -61,7 +61,7 @@ border: solid #4B0082 5px
 .header h1 {
   font-family: cursive;
   color: white;
-  font size: 55px;
+  font-size: 55px;
   text-align: center;
 }
 
@@ -94,7 +94,7 @@ svg {
     border: 5px solid lightgrey;
   }
   .guarantee {
-    display: flex;
+    width: 450px;
   }
   .about {
       margin-top: 200px;
@@ -106,12 +106,12 @@ svg {
     font-family: gordita;
     font-size: 15px;
     font-weight: 400;
-    height: 168px;
+    height: 268px;
     letter-spacing: -0.5px;
     line-height: 24.299999px;
     margin-block-end: 30px;
     margin-block-start: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
     margin-inline-end: 0px;
     margin-inline-start: 0px;
     margin-left: 30px;
@@ -123,7 +123,10 @@ svg {
     padding-top: 0px;
     text-align: start;
     visibility: visible;
-    width: 400px
+    width: 450px
+  }
+  .center1 p {
+    width: 425px;
   }
   .unordered-list {
     margin-right: 50px;
@@ -190,8 +193,9 @@ svg {
  }
 .abt1 {
 display: flex;
-width: 375px;
-margin-bottom: 30px;
+width: 400px;
+margin-bottom: 100px;
+padding-bottom: 125px;
 }
  .center {
   box-sizing: border-box;
@@ -217,11 +221,9 @@ margin-bottom: 30px;
   padding-top: 0px;
   text-align: start;
   visibility: visible;
-  width: 100px
+  width: 400px
 }
-.strategy {
-  
-}
+
 .www {
   display: flex;
 }
@@ -234,9 +236,11 @@ margin-bottom: 30px;
   padding-bottom: 50px;
   margin-top: 100px;
   margin-bottom: 50px;
+
 }
 .why p {
   margin-left: 15px;
+  width: 450px;
 }
 .why ul {
   list-style: none;
@@ -244,7 +248,8 @@ margin-bottom: 30px;
 }
 .why img {
   margin-left: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  border: 5px white solid;
 }
 .why ul li:before {
   content: '✓';
@@ -254,7 +259,8 @@ margin-bottom: 30px;
   margin-bottom: 30px;
 }
 .marketing-img {
-width: ;
+  margin-right: 20px;
+  margin-bottom: 50px;
 }
 #contact {
   padding-top: 50px;
@@ -309,7 +315,13 @@ padding-right: 0px;
 padding-top: 0px;
 text-align: start;
 visibility: visible;
-width: 476px
+width: 475px
+}
+#why-p {
+  display: block;
+  margin: 50px 10px 100px 20px;
+  padding-bottom: 100px;
+  padding-right: 50px;
 }
 body {
   background-color: white;
